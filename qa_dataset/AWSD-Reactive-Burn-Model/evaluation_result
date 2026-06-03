@@ -1,0 +1,1001 @@
+[
+  {
+    "question_number": 1,
+    "type": "单事实检索型",
+    "parent_id": [
+      2
+    ],
+    "retrieval_parent_id": [
+      2,
+      15,
+      16
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 2,
+    "type": "单事实检索型",
+    "parent_id": [
+      2
+    ],
+    "retrieval_parent_id": [
+      2,
+      20
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 3,
+    "type": "单事实检索型",
+    "parent_id": [
+      2
+    ],
+    "retrieval_parent_id": [
+      2,
+      15,
+      16
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 4,
+    "type": "单事实检索型",
+    "parent_id": [
+      3
+    ],
+    "retrieval_parent_id": [
+      3,
+      41
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 5,
+    "type": "单事实检索型",
+    "parent_id": [
+      3
+    ],
+    "retrieval_parent_id": [
+      3,
+      6,
+      1,
+      2
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 6,
+    "type": "单事实检索型",
+    "parent_id": [
+      4
+    ],
+    "retrieval_parent_id": [
+      3,
+      4,
+      45,
+      46
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 7,
+    "type": "单事实检索型",
+    "parent_id": [
+      4
+    ],
+    "retrieval_parent_id": [
+      4,
+      1,
+      2,
+      5
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 8,
+    "type": "单事实检索型",
+    "parent_id": [
+      4
+    ],
+    "retrieval_parent_id": [
+      4,
+      5,
+      46,
+      45
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 0
+  },
+  {
+    "question_number": 9,
+    "type": "单事实检索型",
+    "parent_id": [
+      4
+    ],
+    "retrieval_parent_id": [
+      4,
+      5,
+      2,
+      3
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 10,
+    "type": "单事实检索型",
+    "parent_id": [
+      5
+    ],
+    "retrieval_parent_id": [
+      5,
+      1,
+      47
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 11,
+    "type": "单事实检索型",
+    "parent_id": [
+      5
+    ],
+    "retrieval_parent_id": [
+      5,
+      46
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 0
+  },
+  {
+    "question_number": 12,
+    "type": "单事实检索型",
+    "parent_id": [
+      5
+    ],
+    "retrieval_parent_id": [
+      5,
+      6,
+      4
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 13,
+    "type": "单事实检索型",
+    "parent_id": [
+      42
+    ],
+    "retrieval_parent_id": [
+      42,
+      41
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 14,
+    "type": "单事实检索型",
+    "parent_id": [
+      42
+    ],
+    "retrieval_parent_id": [
+      42,
+      1,
+      6
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 0
+  },
+  {
+    "question_number": 15,
+    "type": "单事实检索型",
+    "parent_id": [
+      45
+    ],
+    "retrieval_parent_id": [
+      41,
+      45
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 0
+  },
+  {
+    "question_number": 16,
+    "type": "单事实检索型",
+    "parent_id": [
+      45
+    ],
+    "retrieval_parent_id": [
+      45,
+      47
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 17,
+    "type": "单事实检索型",
+    "parent_id": [
+      46
+    ],
+    "retrieval_parent_id": [
+      44,
+      45,
+      46,
+      47
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.3333333333333333,
+    "accuracy": 1
+  },
+  {
+    "question_number": 18,
+    "type": "单事实检索型",
+    "parent_id": [
+      46
+    ],
+    "retrieval_parent_id": [
+      45,
+      46,
+      47,
+      44
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 19,
+    "type": "单事实检索型",
+    "parent_id": [
+      47
+    ],
+    "retrieval_parent_id": [
+      47,
+      45,
+      6
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 20,
+    "type": "单事实检索型",
+    "parent_id": [
+      47
+    ],
+    "retrieval_parent_id": [
+      47,
+      6,
+      34
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 0
+  },
+  {
+    "question_number": 21,
+    "type": "单事实检索型",
+    "parent_id": [
+      47
+    ],
+    "retrieval_parent_id": [
+      47,
+      6
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 22,
+    "type": "表格问答型",
+    "parent_id": [
+      22
+    ],
+    "retrieval_parent_id": [
+      21,
+      22,
+      34,
+      35,
+      20
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 23,
+    "type": "表格问答型",
+    "parent_id": [
+      35
+    ],
+    "retrieval_parent_id": [
+      7,
+      34,
+      35,
+      32
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.3333333333333333,
+    "accuracy": 1
+  },
+  {
+    "question_number": 24,
+    "type": "表格问答型",
+    "parent_id": [
+      41
+    ],
+    "retrieval_parent_id": [
+      43,
+      44,
+      2,
+      41
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.25,
+    "accuracy": 1
+  },
+  {
+    "question_number": 25,
+    "type": "表格问答型",
+    "parent_id": [
+      42
+    ],
+    "retrieval_parent_id": [
+      41,
+      3,
+      38
+    ],
+    "recall": 0.0,
+    "reciprocal_rank": 0.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 26,
+    "type": "表格问答型",
+    "parent_id": [
+      42
+    ],
+    "retrieval_parent_id": [
+      41,
+      20,
+      21,
+      3
+    ],
+    "recall": 0.0,
+    "reciprocal_rank": 0.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 27,
+    "type": "公式问答型",
+    "parent_id": [
+      8
+    ],
+    "retrieval_parent_id": [
+      7,
+      8,
+      22,
+      23,
+      14
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 28,
+    "type": "公式问答型",
+    "parent_id": [
+      8
+    ],
+    "retrieval_parent_id": [
+      7,
+      8,
+      14,
+      22,
+      23
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 29,
+    "type": "公式问答型",
+    "parent_id": [
+      10
+    ],
+    "retrieval_parent_id": [
+      9,
+      10,
+      26,
+      27,
+      28
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 30,
+    "type": "公式问答型",
+    "parent_id": [
+      11
+    ],
+    "retrieval_parent_id": [
+      10,
+      11,
+      9,
+      24,
+      25
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 31,
+    "type": "公式问答型",
+    "parent_id": [
+      13
+    ],
+    "retrieval_parent_id": [
+      15,
+      16,
+      17,
+      7,
+      8,
+      14
+    ],
+    "recall": 0.0,
+    "reciprocal_rank": 0.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 32,
+    "type": "公式问答型",
+    "parent_id": [
+      17
+    ],
+    "retrieval_parent_id": [
+      15,
+      16,
+      17,
+      18
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.3333333333333333,
+    "accuracy": 1
+  },
+  {
+    "question_number": 33,
+    "type": "公式问答型",
+    "parent_id": [
+      23
+    ],
+    "retrieval_parent_id": [
+      22,
+      23,
+      7,
+      8,
+      31,
+      32
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 34,
+    "type": "公式问答型",
+    "parent_id": [
+      25
+    ],
+    "retrieval_parent_id": [
+      24,
+      25,
+      10,
+      11,
+      33,
+      34
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 35,
+    "type": "公式问答型",
+    "parent_id": [
+      28
+    ],
+    "retrieval_parent_id": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      9,
+      10
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.2,
+    "accuracy": 1
+  },
+  {
+    "question_number": 36,
+    "type": "公式问答型",
+    "parent_id": [
+      39
+    ],
+    "retrieval_parent_id": [
+      38,
+      3,
+      37
+    ],
+    "recall": 0.0,
+    "reciprocal_rank": 0.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 37,
+    "type": "公式问答型",
+    "parent_id": [
+      38
+    ],
+    "retrieval_parent_id": [
+      37,
+      38,
+      3
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 38,
+    "type": "公式问答型",
+    "parent_id": [
+      41
+    ],
+    "retrieval_parent_id": [
+      41,
+      38
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 39,
+    "type": "公式问答型",
+    "parent_id": [
+      41
+    ],
+    "retrieval_parent_id": [
+      41,
+      1
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 40,
+    "type": "图文关联型",
+    "parent_id": [
+      18
+    ],
+    "retrieval_parent_id": [
+      18,
+      15,
+      16
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 41,
+    "type": "图文关联型",
+    "parent_id": [
+      19
+    ],
+    "retrieval_parent_id": [
+      19,
+      20,
+      21
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 42,
+    "type": "图文关联型",
+    "parent_id": [
+      20
+    ],
+    "retrieval_parent_id": [
+      33,
+      34,
+      20,
+      19
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.3333333333333333,
+    "accuracy": 1
+  },
+  {
+    "question_number": 43,
+    "type": "图文关联型",
+    "parent_id": [
+      20
+    ],
+    "retrieval_parent_id": [
+      20,
+      19,
+      32,
+      33
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 44,
+    "type": "图文关联型",
+    "parent_id": [
+      21
+    ],
+    "retrieval_parent_id": [
+      20,
+      21,
+      15,
+      19
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 45,
+    "type": "图文关联型",
+    "parent_id": [
+      33
+    ],
+    "retrieval_parent_id": [
+      32,
+      33,
+      19,
+      20
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 46,
+    "type": "图文关联型",
+    "parent_id": [
+      33
+    ],
+    "retrieval_parent_id": [
+      14,
+      15,
+      46,
+      47,
+      20
+    ],
+    "recall": 0.0,
+    "reciprocal_rank": 0.0,
+    "accuracy": 0
+  },
+  {
+    "question_number": 47,
+    "type": "图文关联型",
+    "parent_id": [
+      34
+    ],
+    "retrieval_parent_id": [
+      34,
+      35
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 48,
+    "type": "图文关联型",
+    "parent_id": [
+      43
+    ],
+    "retrieval_parent_id": [
+      44,
+      43
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 49,
+    "type": "图文关联型",
+    "parent_id": [
+      43
+    ],
+    "retrieval_parent_id": [
+      44,
+      43
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 50,
+    "type": "图文关联型",
+    "parent_id": [
+      45
+    ],
+    "retrieval_parent_id": [
+      44,
+      47,
+      43
+    ],
+    "recall": 0.0,
+    "reciprocal_rank": 0.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 51,
+    "type": "图文关联型",
+    "parent_id": [
+      45
+    ],
+    "retrieval_parent_id": [
+      41,
+      45
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 52,
+    "type": "图文关联型",
+    "parent_id": [
+      45
+    ],
+    "retrieval_parent_id": [
+      45,
+      42,
+      43,
+      46
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 53,
+    "type": "图文关联型",
+    "parent_id": [
+      45
+    ],
+    "retrieval_parent_id": [
+      43,
+      44,
+      45
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.3333333333333333,
+    "accuracy": 1
+  },
+  {
+    "question_number": 54,
+    "type": "图文关联型",
+    "parent_id": [
+      46
+    ],
+    "retrieval_parent_id": [
+      45,
+      46,
+      47,
+      44
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 55,
+    "type": "图文关联型",
+    "parent_id": [
+      46
+    ],
+    "retrieval_parent_id": [
+      46,
+      5
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 56,
+    "type": "图文关联型",
+    "parent_id": [
+      46
+    ],
+    "retrieval_parent_id": [
+      46,
+      47,
+      15,
+      16,
+      44,
+      45
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 57,
+    "type": "图文关联型",
+    "parent_id": [
+      46
+    ],
+    "retrieval_parent_id": [
+      46,
+      15,
+      16,
+      6
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 0
+  },
+  {
+    "question_number": 58,
+    "type": "图文关联型",
+    "parent_id": [
+      46
+    ],
+    "retrieval_parent_id": [
+      46,
+      47
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 59,
+    "type": "多源整合型",
+    "parent_id": [
+      15,
+      20,
+      21
+    ],
+    "retrieval_parent_id": [
+      20,
+      21,
+      15,
+      19
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 60,
+    "type": "多源整合型",
+    "parent_id": [
+      18
+    ],
+    "retrieval_parent_id": [
+      18,
+      15,
+      16,
+      19
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 61,
+    "type": "多源整合型",
+    "parent_id": [
+      42
+    ],
+    "retrieval_parent_id": [
+      1,
+      42,
+      6
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  },
+  {
+    "question_number": 62,
+    "type": "多源整合型",
+    "parent_id": [
+      43,
+      44
+    ],
+    "retrieval_parent_id": [
+      43,
+      44
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 63,
+    "type": "多源整合型",
+    "parent_id": [
+      32,
+      33
+    ],
+    "retrieval_parent_id": [
+      32,
+      33,
+      1,
+      6
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 1.0,
+    "accuracy": 1
+  },
+  {
+    "question_number": 64,
+    "type": "多源整合型",
+    "parent_id": [
+      8
+    ],
+    "retrieval_parent_id": [
+      7,
+      8,
+      22,
+      23,
+      14
+    ],
+    "recall": 1.0,
+    "reciprocal_rank": 0.5,
+    "accuracy": 1
+  }
+]

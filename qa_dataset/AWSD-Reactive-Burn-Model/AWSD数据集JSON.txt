@@ -1,0 +1,374 @@
+[
+  {
+    "type": "单事实检索型",
+    "question": "LX-14由哪些成分构成？这些成分的占比是多少？",
+    "ground_truth": "LX-14是一种基于HMX的高能炸药，按重量计由95.5%的HMX和4.5%的聚酯粘结剂组成。",
+    "context": "LX-14是一种基于HMX的高能炸药，按重量计由95.5%的HMX和4.5%的聚酯粘结剂组成。它被设计为具有高能量、低冲击敏感度，并且与PBX 9404等其他高能炸药相比具有改进的机械性能。LX-14的化学结构与PBX 9501相似，但粘结剂反应性较低。LX-14在压装药柱中的典型密度约为1.830 g/cm³。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "在设计目标上，LX-14相比于PBX 9404等其他高能炸药有什么特点？",
+    "ground_truth": "LX-14被设计为具有高能量、低冲击敏感度，并且与PBX 9404等其他高能炸药相比具有改进的机械性能。",
+    "context": "LX-14是一种基于HMX的高能炸药，按重量计由95.5%的HMX和4.5%的聚酯粘结剂组成。它被设计为具有高能量、低冲击敏感度，并且与PBX 9404等其他高能炸药相比具有改进的机械性能。LX-14的化学结构与PBX 9501相似，但粘结剂反应性较低。LX-14在压装药柱中的典型密度约为1.830 g/cm³。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "LX-14 在压装药柱中的典型密度值是多少？",
+    "ground_truth": "LX-14在压装药柱中的典型密度约为1.830 g/cm³。",
+    "context": "LX-14是一种基于HMX的高能炸药，按重量计由95.5%的HMX和4.5%的聚酯粘结剂组成。它被设计为具有高能量、低冲击敏感度，并且与PBX 9404等其他高能炸药相比具有改进的机械性能。LX-14的化学结构与PBX 9501相似，但粘结剂反应性较低。LX-14在压装药柱中的典型密度约为1.830 g/cm³。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "在 AWSD 模型中，反应速率方程的动力学特性是与什么方程耦合来进行材料行为预测的？",
+    "ground_truth": "在AWSD模型中，反应速率方程中的动力学特性与热力学状态方程耦合。",
+    "context": "在AWSD模型中，反应速率方程中的动力学特性与热力学状态方程耦合，以预测材料（通常是高能炸药）在各种热力学和冲击条件下的行为。AWSD模型使用戴维斯反应物状态方程和戴维斯产物状态方程，结合阿伦尼乌斯速率定律来描述目标材料的燃烧。AWSD模型中的参数必须针对所研究的具体材料进行校准。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "AWSD模型是如何描述目标材料的燃烧的？",
+    "ground_truth": "AWSD模型使用戴维斯反应物状态方程和戴维斯产物状态方程，结合阿伦尼乌斯速率定律来描述目标材料的燃烧。",
+    "context": "在AWSD模型中，反应速率方程中的动力学特性与热力学状态方程耦合，以预测材料（通常是高能炸药）在各种热力学和冲击条件下的行为。AWSD模型使用戴维斯反应物状态方程和戴维斯产物状态方程，结合阿伦尼乌斯速率定律来描述目标材料的燃烧。AWSD模型中的参数必须针对所研究的具体材料进行校准。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "AWSD模型的局限性体现在什么地方？",
+    "ground_truth": "AWSD模型存在局限性，包括在某些系统中无法准确描述热力学量及其导数之间的关系，并且由于阿伦尼乌斯速率定律中的平衡假设，无法捕捉非平衡化学动力学。",
+    "context": "AWSD模型存在局限性，包括在某些系统中无法准确描述热力学量及其导数之间的关系，并且由于阿伦尼乌斯速率定律中的平衡假设，无法捕捉非平衡化学动力学。AWSD模型是冲击诱导化学反应和高能炸药爆轰计算处理广泛领域中的一个特定理论工具。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "公开文献中的LX-14的反应流模型有哪几种？",
+    "ground_truth": "公开文献中有四种LX-14的反应流模型：(1) CREST模型，(2) 标度均匀反应流模型，(3) Vandersall 等人提出的点火增长模型，以及 (4) Tarver 提出的I&G模型。",
+    "context": "公开文献中有四种LX-14的反应流模型：(1) CREST模型，(2) 标度均匀反应流模型，(3) Vandersall 等人提出的点火增长模型，以及 (4) Tarver 提出的I&G模型。Handley 和 Whitworth 使用CREST熵相关反应燃烧模型研究了LX-14的反应流。CREST模型准确预测了LX-14在标称密度下的行为。冲击转爆轰曲线的形状与实验数据吻合良好，但爆轰距离的预测不够准确。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "CREST模型在标称密度下虽然准确预测了LX-14的行为，但在哪个具体预测指标上不够准确？",
+    "ground_truth": "冲击转爆轰曲线的形状与实验数据吻合良好，但爆轰距离的预测不够准确。",
+    "context": "公开文献中有四种LX-14的反应流模型：(1) CREST模型，(2) 标度均匀反应流模型，(3) Vandersall 等人提出的点火增长模型，以及 (4) Tarver 提出的I&G模型。Handley 和 Whitworth 使用CREST熵相关反应燃烧模型研究了LX-14的反应流。CREST模型准确预测了LX-14在标称密度下的行为。冲击转爆轰曲线的形状与实验数据吻合良好，但爆轰距离的预测不够准确。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "Handley和Whitworth是使用什么模型对LX-14 的反应流进行研究的？",
+    "ground_truth": "Handley 和 Whitworth 使用CREST熵相关反应燃烧模型研究了LX-14的反应流。",
+    "context": "公开文献中有四种LX-14的反应流模型：(1) CREST模型，(2) 标度均匀反应流模型，(3) Vandersall 等人提出的点火增长模型，以及 (4) Tarver 提出的I&G模型。Handley 和 Whitworth 使用CREST熵相关反应燃烧模型研究了LX-14的反应流。CREST模型准确预测了LX-14在标称密度下的行为。冲击转爆轰曲线的形状与实验数据吻合良好，但爆轰距离的预测不够准确。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "Jones等人为LX-14校准SURF模型时，参考了哪种已有炸药的参数？",
+    "ground_truth": "该LX-14 SURF模型使用了PBX 9501的参数，仅做了一处修改。",
+    "context": "Jones 等人将LX-14的SURF模型校准与嵌入式粒子速度计数据进行了比较。该LX-14 SURF模型使用了PBX 9501的参数，仅做了一处修改。该模型从定性角度再现了测得的LX-14波剖面，这体现了LX-14和PBX 9501之间密切的化学关系。SURF模型较好地复现了一些爆轰可观测值，但气炮波前的粒子速度幅值不够准确。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "SURF模型在校准过程中有哪些不足？",
+    "ground_truth": "SURF模型较好地复现了一些爆轰可观测值，但气炮波前的粒子速度幅值不够准确。",
+    "context": "Jones 等人将LX-14的SURF模型校准与嵌入式粒子速度计数据进行了比较。该LX-14 SURF模型使用了PBX 9501的参数，仅做了一处修改。该模型从定性角度再现了测得的LX-14波剖面，这体现了LX-14和PBX 9501之间密切的化学关系。SURF模型较好地复现了一些爆轰可观测值，但气炮波前的粒子速度幅值不够准确。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "Vandersall等人在为LX-14开发I&G模型时，具体进行了什么实验来校准模型？",
+    "ground_truth": "Vandersall进行了嵌入式锰铜压力计实验并校准了一个I&G模型。",
+    "context": "Vandersall 等人和Tarver都为LX-14开发了不同的I&G模型。Vandersall进行了嵌入式锰铜压力计实验并校准了一个I&G模型。Tarver的研究表明，对于LX-14，嵌入式锰铜压力计和嵌入式粒子速度计的测量结果等效，并校准了一个I&G模型，该模型对冲击转爆轰曲线的形状给出了普遍良好的预测。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "在速率定律参数校准步骤中，是如何获取初始优化参数值？",
+    "ground_truth": "使用Nelder-Mead单纯形优化算法获得一组初始优化参数值。",
+    "context": "速率定律参数校准分三步进行。首先，使用Nelder-Mead单纯形优化算法获得一组初始优化参数值。……其次，使用冲击拟合代码模拟药柱实验。没有可用的LX-14药柱数据，因此在校准中使用PBX 9404的标度值来填补这一数据空白。在此第二步中校准了参数k₂和b₂，同时保持所有其他参数不变。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "在速率定律参数校准中，是如何解决缺少 LX-14药柱数据这个问题的？",
+    "ground_truth": "没有可用的LX-14药柱数据，因此在校准中使用PBX 9404的标度值来填补这一数据空白。",
+    "context": "速率定律参数校准分三步进行。首先，使用Nelder-Mead单纯形优化算法获得一组初始优化参数值。……其次，使用冲击拟合代码模拟药柱实验。没有可用的LX-14药柱数据，因此在校准中使用PBX 9404的标度值来填补这一数据空白。在此第二步中校准了参数k₂和b₂，同时保持所有其他参数不变。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "实验2S-946的数据在模型校准中扮演了什么角色（用于校准还是用于验证）？",
+    "ground_truth": "实验2S-946的波前数据未用于速率定律校准过程，因此该实验的结果可用于验证校准后的模型。",
+    "context": "观察发现，校准后的LX-14 AWSD模型预测的SDT结果与校准中使用的四次实验的实验数据之间高度吻合。……实验2S-946的波前数据未用于速率定律校准过程。因此，该实验的结果可用于验证校准后的模型。实验2S-946的SDT结果如图7所示，并与相应的实验结果叠加显示。使用LX-14 AWSD模型生成的预测与实验数据吻合良好。这说明了校准后的模型在推导参数值时未使用的数据上的预测能力。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "实验2S-946的成功预测说明了校准后的模型具备何种能力？",
+    "ground_truth": "说明了校准后的模型在推导参数值时未使用的数据上的预测能力。",
+    "context": "观察发现，校准后的LX-14 AWSD模型预测的SDT结果与校准中使用的四次实验的实验数据之间高度吻合。……实验2S-946的波前数据未用于速率定律校准过程。因此，该实验的结果可用于验证校准后的模型。实验2S-946的SDT结果如图7所示，并与相应的实验结果叠加显示。使用LX-14 AWSD模型生成的预测与实验数据吻合良好。这说明了校准后的模型在推导参数值时未使用的数据上的预测能力。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "在对实验1S-1614的不同模型的比较中，哪个模型提供了对实验数据总体更好的拟合？",
+    "ground_truth": "比较AWSD模型和CREST模型，可以看出AWSD模型提供了对实验数据的总体更好的拟合。",
+    "context": "实验1S-1614的AWSD、CREST和SURF模型之间的比较。……比较图8a中的AWSD模型和图8b中的CREST模型，可以看出AWSD模型提供了对实验数据的总体更好的拟合。对于本次实验中的几个早期量规，CREST模型具有很好的形式，但它没有像实验数据那样快地转变为爆轰，并且爆轰在稍后的时间滞后。比较图8c中的AWSD模型和SURF模型结果，可以看出当材料转变为爆轰时，SURF模型的波形形状与数据略有不同。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "对于实验1S-1614中的几个早期量规，哪个模型具有更好的形式？",
+    "ground_truth": "对于本次实验中的几个早期量规，CREST模型具有很好的形式。",
+    "context": "实验1S-1614的AWSD、CREST和SURF模型之间的比较。……比较图8a中的AWSD模型和图8b中的CREST模型，可以看出AWSD模型提供了对实验数据的总体更好的拟合。对于本次实验中的几个早期量规，CREST模型具有很好的形式，但它没有像实验数据那样快地转变为爆轰，并且爆轰在稍后的时间滞后。比较图8c中的AWSD模型和SURF模型结果，可以看出当材料转变为爆轰时，SURF模型的波形形状与数据略有不同。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "针对高能炸药LX-14，哪个模型最能准确捕捉冲击转爆轰行为？",
+    "ground_truth": "与LX-14的其他反应流模型相比，校准后的AWSD模型总体上更准确地捕捉了冲击转爆轰行为。",
+    "context": "我们展示了高能炸药LX-14的AWSD反应流校准结果。观察发现，校准后的反应流模型与来自多个来源的LX-14实验数据高度吻合。具体来说，校准后的反应物和产物状态方程捕捉了来自实验来源和热化学计算的LX-14热力学数据的行为。……与LX-14的其他反应流模型相比，校准后的AWSD模型总体上更准确地捕捉了冲击转爆轰行为。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "校准后的什么方程也能够捕捉LX-14热力学数据的行为？",
+    "ground_truth": "校准后的反应物和产物状态方程捕捉了来自实验来源和热化学计算的LX-14热力学数据的行为。",
+    "context": "我们展示了高能炸药LX-14的AWSD反应流校准结果。观察发现，校准后的反应流模型与来自多个来源的LX-14实验数据高度吻合。具体来说，校准后的反应物和产物状态方程捕捉了来自实验来源和热化学计算的LX-14热力学数据的行为。……与LX-14的其他反应流模型相比，校准后的AWSD模型总体上更准确地捕捉了冲击转爆轰行为。"
+  },
+  {
+    "type": "单事实检索型",
+    "question": "与LX-14的其他反应流模型相比，校准后的AWSD模型在捕捉哪种特定行为时总体上更为准确？",
+    "ground_truth": "与LX-14的其他反应流模型相比，校准后的AWSD模型总体上更准确地捕捉了冲击转爆轰行为。",
+    "context": "我们展示了高能炸药LX-14的AWSD反应流校准结果。观察发现，校准后的反应流模型与来自多个来源的LX-14实验数据高度吻合。具体来说，校准后的反应物和产物状态方程捕捉了来自实验来源和热化学计算的LX-14热力学数据的行为。……与LX-14的其他反应流模型相比，校准后的AWSD模型总体上更准确地捕捉了冲击转爆轰行为。"
+  }
+{
+    "type": "表格问答型",
+    "question": "LX-14戴维斯反应物EOS中使用的参数有哪些？这些参数的值是多少？",
+    "ground_truth": "LX-14戴维斯反应物EOS包含以下参数：A = 2.494 km·s⁻¹，B = 2.059 km·s⁻¹，C = 4.591 km·s⁻¹，Cᵥ⁽⁰⁾ = 0.001031 kJ·g⁻¹·K⁻¹，Γ₀ = 0.8620，Z = 0，αₛₜ = 0.3662，ρ₀ = 1.830 g·cm⁻³，T₀ = 298.15 K，E_det = 6.247 kJ·g⁻¹。",
+    "context": "表1 | 反应物EOS参数。\n\n<table><tr><td>参数</td><td>值</td><td>单位</td></tr><tr><td>$A$</td><td>2.494</td><td rowspan=\"3\">$\\mathrm{{km}}{\\mathrm{s}}^{-1}$</td></tr><tr><td>$B$</td><td>2.059</td></tr><tr><td>$C$</td><td>4.591</td></tr><tr><td>${C}_{v}^{\\left( 0\\right) }$</td><td>0.001031</td><td>$\\mathrm{{kJ}}{\\mathrm{g}}^{-1}{\\mathrm{\\;K}}^{-1}$</td></tr><tr><td>${\\Gamma }_{0}$</td><td>0.8620</td><td></td></tr><tr><td>$Z$</td><td>0</td><td></td></tr><tr><td>${\\alpha }_{st}$</td><td>0.3662</td><td></td></tr><tr><td>${\\rho }_{0}$</td><td>1.830</td><td>$\\mathrm{g}{\\mathrm{{cm}}}^{-3}$</td></tr><tr><td>${T}_{0}$</td><td>298.15</td><td>K</td></tr><tr><td>${E}_{\\mathrm{{det}}}$</td><td>6.247</td><td>$\\mathrm{{kJ}}{\\mathrm{g}}^{-1}$</td></tr></table>\n\nLX-14戴维斯反应物EOS中使用的参数和参数值的完整列表见表1。"
+  },
+  {
+    "type": "表格问答型",
+    "question": "校准后的LX-14戴维斯产物EOS使用的参数有哪些？这些参数的值是多少？",
+    "ground_truth": "校准后的LX-14戴维斯产物EOS包含以下参数：a = 0.8538，b = 0.7142，k = 1.265，n = 1.419，p_c = 6.070 GPa，v_c = 0.7182 cm³·g⁻¹，C_vp = 0.001187 kJ·g⁻¹·K⁻¹。",
+    "context": "表2 | 产物EOS参数。\n\n<table><tr><td>参数</td><td>值</td><td>单位</td></tr><tr><td>$a$</td><td>0.8538</td><td></td></tr><tr><td>$b$</td><td>0.7142</td><td></td></tr><tr><td>$k$</td><td>1.265</td><td></td></tr><tr><td>$n$</td><td>1.419</td><td></td></tr><tr><td>${p}_{c}$</td><td>6.070</td><td>GPa</td></tr><tr><td>${v}_{c}$</td><td>0.7182</td><td>${\\mathrm{{cm}}}^{-3}{\\mathrm{\\;g}}^{-1}$</td></tr><tr><td>${C}_{vp}$</td><td>0.001187</td><td>$\\mathrm{{kJ}}{\\mathrm{g}}^{-1}{\\mathrm{\\;K}}^{-1}$</td></tr></table>\n\n校准后的LX-14戴维斯产物EOS参数值的完整列表见表2。"
+  },
+  {
+    "type": "表格问答型",
+    "question": "LX-14的气泡实验有哪些？这几个实验的参数是多少？",
+    "ground_truth": "共有五次气炮实验，分别为：实验编号1S-1612，初始密度1.828 g·cm⁻³，飞片材料蓝宝石，压力2.97 GPa；实验1S-1613，密度1.828 g·cm⁻³，蓝宝石飞片，压力3.77 GPa；实验1S-1614，密度1.825 g·cm⁻³，蓝宝石飞片，压力4.78 GPa；实验2S-946，密度1.828 g·cm⁻³，Kel-F81飞片，压力6.25 GPa；实验2S-947，密度1.829 g·cm⁻³，Kel-F81飞片，压力8.13 GPa。",
+    "context": "表3 | 来自 [4] 的LX-14气炮数据源\n\n<table><tr><td>实验编号 #</td><td>${\\rho }_{0}\\left( {\\mathrm{\\;g}{\\mathrm{\\;{cm}}}^{-3}}\\right)$</td><td>飞片</td><td>P(GPa)</td></tr><tr><td>1S-1612</td><td>1.828</td><td>蓝宝石 (Sapphire)</td><td>2.97</td></tr><tr><td>1S-1613</td><td>1.828</td><td>蓝宝石 (Sapphire)</td><td>3.77</td></tr><tr><td>1S-1614</td><td>1.825</td><td>蓝宝石 (Sapphire)</td><td>4.78</td></tr><tr><td>2S-946</td><td>1.828</td><td>Kel-F81</td><td>6.25</td></tr><tr><td>2S-947</td><td>1.829</td><td>Kel-F81</td><td>8.13</td></tr></table>\n\nJones等人使用气炮平板撞击技术（gas-gun plate-impact techniques）在不同压力下对LX-14进行了嵌入式粒子速度计测量。共进行了五次不同的实验。这些气炮实验及其对应的压力列于表3。"
+  },
+  {
+    "type": "表格问答型",
+    "question": "AWSD速率定律参数中的k₁和k₂的数值及单位分别是什么？",
+    "ground_truth": "k₁的值为382，单位为μs⁻¹；k₂的值为2532，单位为μs⁻¹。",
+    "context": "表4 | LX-14的AWSD参数。\n\n<table><tr><td>参数</td><td>值</td><td>单位</td></tr><tr><td>${p}_{s}$</td><td>6.0429</td><td>GPa</td></tr><tr><td>${p}_{\\zeta }$</td><td>0.600</td><td>GPa</td></tr><tr><td>${T}_{1}$</td><td>1267</td><td>K</td></tr><tr><td>${T}_{2}$</td><td>6187</td><td>K</td></tr><tr><td>${a}_{1}$</td><td>0.0269</td><td></td></tr><tr><td>${b}_{1}$</td><td>2.450</td><td></td></tr><tr><td>${b}_{2}$</td><td>0.7335</td><td></td></tr><tr><td>${\\delta }_{\\lambda }$</td><td>0.013</td><td></td></tr><tr><td>${f}_{s}$</td><td>0.0115</td><td></td></tr><tr><td>${k}_{1}$</td><td>382</td><td>$\\mu {\\mathrm{s}}^{-1}$</td></tr><tr><td>${k}_{2}$</td><td>2532</td><td>$\\mu {\\mathrm{s}}^{-1}$</td></tr><tr><td>${\\lambda }_{c}$</td><td>0.980</td><td></td></tr><tr><td>${n}_{p}$</td><td>0.942</td><td></td></tr></table>"
+  },
+  {
+    "type": "表格问答型",
+    "question": "AWSD速率定律参数中的pₛ和p_ζ的数值及单位分别是什么？",
+    "ground_truth": "pₛ的值为6.0429 GPa，p_ζ的值为0.600 GPa。",
+    "context": "表4 | LX-14的AWSD参数。\n\n<table><tr><td>参数</td><td>值</td><td>单位</td></tr><tr><td>${p}_{s}$</td><td>6.0429</td><td>GPa</td></tr><tr><td>${p}_{\\zeta }$</td><td>0.600</td><td>GPa</td></tr><tr><td>${T}_{1}$</td><td>1267</td><td>K</td></tr><tr><td>${T}_{2}$</td><td>6187</td><td>K</td></tr><tr><td>${a}_{1}$</td><td>0.0269</td><td></td></tr><tr><td>${b}_{1}$</td><td>2.450</td><td></td></tr><tr><td>${b}_{2}$</td><td>0.7335</td><td></td></tr><tr><td>${\\delta }_{\\lambda }$</td><td>0.013</td><td></td></tr><tr><td>${f}_{s}$</td><td>0.0115</td><td></td></tr><tr><td>${k}_{1}$</td><td>382</td><td>$\\mu {\\mathrm{s}}^{-1}$</td></tr><tr><td>${k}_{2}$</td><td>2532</td><td>$\\mu {\\mathrm{s}}^{-1}$</td></tr><tr><td>${\\lambda }_{c}$</td><td>0.980</td><td></td></tr><tr><td>${n}_{p}$</td><td>0.942</td><td></td></tr></table>"
+  }
+{
+    "type": "公式问答型",
+    "question": "戴维斯反应物状态方程模型中的能量和压力的公式分别是什么？",
+    "ground_truth": "戴维斯反应物状态方程的能量由 ${e}_{\\mathrm{R}}\\left( {p,\\rho }\\right)  = {e}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right)  + \\frac{p - {p}_{\\mathrm{R}}^{\\left( s\\right) }}{\\rho {\\Gamma }_{\\mathrm{R}}\\left( \\rho \\right) }$ 给出，压力由 ${p}_{\\mathrm{R}}\\left( {e,\\rho }\\right)  = {p}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right)  + \\rho {\\Gamma }_{\\mathrm{R}}\\left( \\rho \\right) \\left( {e - {e}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right) }\\right)$ 给出，其中 ${\\Gamma }_{\\mathrm{R}}\\left( \\rho \\right)$ 是 Grüneisen gamma 函数。",
+    "context": "戴维斯反应物状态方程模型是一个Mie-Grüneisen状态方程，其能量由下式给出：$${e}_{\\mathrm{R}}\\left( {p,\\rho }\\right)  = {e}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right)  + \\frac{p - {p}_{\\mathrm{R}}^{\\left( s\\right) }}{\\rho {\\Gamma }_{\\mathrm{R}}\\left( \\rho \\right) }, \\tag{1}$$压力由下式给出：$${p}_{\\mathrm{R}}\\left( {e,\\rho }\\right)  = {p}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right)  + \\rho {\\Gamma }_{\\mathrm{R}}\\left( \\rho \\right) \\left( {e - {e}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right) }\\right) , \\tag{2}$$其中 ${\\Gamma }_{\\mathrm{R}}\\left( \\rho \\right)$ 是 Grüneisen gamma 函数，下标 \" $\\mathrm{R}$ \" 表示反应物状态。"
+  },
+  {
+    "type": "公式问答型",
+    "question": "反应物参考等熵线上的能量如何计算？",
+    "ground_truth": "反应物参考等熵线上的能量由 ${e}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right)  = {E}_{\\mathrm{{det}}} + {\\int }_{{\\rho }_{0}}^{\\rho }\\frac{{p}_{\\mathrm{R}}^{\\left( s\\right) }}{{\\overline{\\rho }}^{2}}d\\overline{\\rho }$ 计算，其中 ${E}_{\\text{ det }}$ 是材料存储的化学势能。",
+    "context": "参考等熵线（reference isentrope）上的能量为：$${e}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right)  = {E}_{\\mathrm{{det}}} + {\\int }_{{\\rho }_{0}}^{\\rho }\\frac{{p}_{\\mathrm{R}}^{\\left( s\\right) }}{{\\overline{\\rho }}^{2}}d\\overline{\\rho }, \\tag{3}$$其中 ${E}_{\\text{ det }}$ 是材料存储的化学势能（stored chemical potential energy），上标 \"s\" 表示该量是沿等熵线计算的。"
+  },
+  {
+    "type": "公式问答型",
+    "question": "反应物参考等熵线上的压力如何计算？",
+    "ground_truth": "等熵线上的压力由分段函数给出：当 $\\rho  < {\\rho }_{0}$ 时，${p}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right)  = \\widehat{p}\\left\\lbrack  {\\exp \\left( {4By}\\right)  - 1}\\right\\rbrack$；当 $\\rho  \\geq  {\\rho }_{0}$ 时，${p}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right)  = \\widehat{p}\\left\\lbrack  {\\mathop{\\sum }\\limits_{{j = 1}}^{3}\\frac{{\\left( 4By\\right) }^{j}}{j!} + C\\frac{{\\left( 4By\\right) }^{4}}{4!} + \\frac{{y}^{2}}{{\\left( 1 - y\\right) }^{4}}}\\right\\rbrack$，其中 $y = 1 - {\\rho }_{0}/\\rho$ 且 $\\widehat{p} = {\\rho }_{0}{A}^{2}/{4B}$。",
+    "context": "等熵线上的压力由分段函数给出：$${p}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right)  = \\left\\{  \\begin{array}{ll} \\widehat{p}\\left\\lbrack  {\\exp \\left( {4By}\\right)  - 1}\\right\\rbrack  , & \\rho  < {\\rho }_{0}, \\\\  \\widehat{p}\\left\\lbrack  {\\mathop{\\sum }\\limits_{{j = 1}}^{3}\\frac{{\\left( 4By\\right) }^{j}}{j!} + C\\frac{{\\left( 4By\\right) }^{4}}{4!} + \\frac{{y}^{2}}{{\\left( 1 - y\\right) }^{4}}}\\right\\rbrack  , & \\rho  \\geq  {\\rho }_{0}, \\end{array}\\right. \\tag{4}$$其中 $y = 1 - {\\rho }_{0}/\\rho$ 且 $\\widehat{p} = {\\rho }_{0}{A}^{2}/{4B}$。"
+  },
+  {
+    "type": "公式问答型",
+    "question": "戴维斯反应物状态方程模型中的反应物的温度如何计算？",
+    "ground_truth": "反应物的温度为 ${T}_{\\mathrm{R}}\\left( {e,\\rho }\\right)  = {T}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right) {\\left( \\frac{1 + {\\alpha }_{st}}{{C}_{v}^{\\left( 0\\right) }{T}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right) }\\left( e - {e}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right) \\right)  + 1\\right) }^{\\frac{1}{1 + {\\alpha }_{st}}}$，其中沿等熵线的温度 ${T}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right)  = {T}_{0}\\exp \\left( {-{Zy}}\\right) {\\left( \\frac{\\rho }{{\\rho }_{0}}\\right) }^{\\left( {\\Gamma }_{0} + Z\\right) }$。",
+    "context": "反应物的温度为：$${T}_{\\mathrm{R}}\\left( {e,\\rho }\\right)  = {T}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right) {\\left( \\frac{1 + {\\alpha }_{st}}{{C}_{v}^{\\left( 0\\right) }{T}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right) }\\left( e - {e}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right) \\right)  + 1\\right) }^{\\frac{1}{1 + {\\alpha }_{st}}}, \\tag{6}$$其中$${T}_{\\mathrm{R}}^{\\left( s\\right) }\\left( \\rho \\right)  = {T}_{0}\\exp \\left( {-{Zy}}\\right) {\\left( \\frac{\\rho }{{\\rho }_{0}}\\right) }^{\\left( {\\Gamma }_{0} + Z\\right) }, \\tag{7}$$是沿等熵线的温度。"
+  },
+  {
+    "type": "公式问答型",
+    "question": "戴维斯EOS模型中的比热（specific heat）如何计算？公式中有哪些参数是可调的？",
+    "ground_truth": "戴维斯EOS模型中的比热由 ${C}_{v}\\left( T\\right)  = {C}_{v}^{\\left( 0\\right) }{\\left( \\frac{T}{{T}_{0}}\\right) }^{{\\alpha }_{st}}$ 计算，它是温度 $T$ 的函数，并具有三个可调参数：${T}_{0}$、${C}_{v}^{\\left( 0\\right) }$ 和 ${\\alpha }_{st}$。",
+    "context": "戴维斯EOS模型中的比热（specific heat）由下式给出：$${C}_{v}\\left( T\\right)  = {C}_{v}^{\\left( 0\\right) }{\\left( \\frac{T}{{T}_{0}}\\right) }^{{\\alpha }_{st}}, \\tag{8}$$它是温度 $T$ 的函数，并具有三个可调参数：${T}_{0},{C}_{v}^{\\left( 0\\right) }$ 和 ${\\alpha }_{st}$。"
+  },
+  {
+    "type": "公式问答型",
+    "question": "戴维斯产物状态方程模型中的能量和压力的公式分别是什么？",
+    "ground_truth": "戴维斯产物状态方程的能量由 ${e}_{\\mathrm{P}}\\left( {p,\\rho }\\right)  = {e}_{\\mathrm{P}}^{\\left( s\\right) }\\left( \\rho \\right)  + \\frac{p - {p}_{\\mathrm{P}}^{\\left( s\\right) }}{\\rho {\\Gamma }_{\\mathrm{P}}\\left( \\rho \\right) }$ 给出，压力由 ${p}_{\\mathrm{P}}\\left( {e,\\rho }\\right)  = {p}_{\\mathrm{P}}^{\\left( s\\right) }\\left( \\rho \\right)  + \\rho {\\Gamma }_{\\mathrm{P}}\\left( \\rho \\right) \\left( {e - {e}_{\\mathrm{P}}^{\\left( s\\right) }\\left( \\rho \\right) }\\right)$ 给出，其中 ${\\Gamma }_{\\mathrm{P}}\\left( \\rho \\right)$ 是 Grüneisen gamma。",
+    "context": "戴维斯产物状态方程模型是一个Mie-Grüneisen状态方程，其能量由下式给出：$${e}_{\\mathrm{P}}\\left( {p,\\rho }\\right)  = {e}_{\\mathrm{P}}^{\\left( s\\right) }\\left( \\rho \\right)  + \\frac{p - {p}_{\\mathrm{P}}^{\\left( s\\right) }}{\\rho {\\Gamma }_{\\mathrm{P}}\\left( \\rho \\right) }, \\tag{9}$$压力由下式给出：$${p}_{\\mathrm{P}}\\left( {e,\\rho }\\right)  = {p}_{\\mathrm{P}}^{\\left( s\\right) }\\left( \\rho \\right)  + \\rho {\\Gamma }_{\\mathrm{P}}\\left( \\rho \\right) \\left( {e - {e}_{\\mathrm{P}}^{\\left( s\\right) }\\left( \\rho \\right) }\\right) , \\tag{10}$$其中下标 \"P\" 表示产物状态，${\\Gamma }_{\\mathrm{P}}\\left( \\rho \\right)$ 是 Grüneisen gamma。"
+  },
+  {
+    "type": "公式问答型",
+    "question": "主Chapman-Jouguet（CJ）等熵线上的压力如何计算？",
+    "ground_truth": "主CJ等熵线上的压力为 ${p}_{\\mathrm{P}}^{\\left( s\\right) }\\left( \\rho \\right)  = {p}_{c}\\frac{{\\left\\lbrack  \\frac{{\\left( \\rho {v}_{c}\\right) }^{-n}}{2} + \\frac{{\\left( \\rho {v}_{c}\\right) }^{n}}{2}\\right\\rbrack  }^{a/n}}{{\\left( \\rho {v}_{c}\\right) }^{-\\left( {k + a}\\right) }}\\left( \\frac{k - 1 + F\\left( \\rho \\right) }{k - 1 + a}\\right)$，其中 $F\\left( \\rho \\right)  = \\frac{{2a}{\\left( \\rho {v}_{c}\\right) }^{n}}{{\\left( \\rho {v}_{c}\\right) }^{-n} + {\\left( \\rho {v}_{c}\\right) }^{n}}$。",
+    "context": "主Chapman-Jouguet（CJ）等熵线上的压力为：$${p}_{\\mathrm{P}}^{\\left( s\\right) }\\left( \\rho \\right)  = {p}_{c}\\frac{{\\left\\lbrack  \\frac{{\\left( \\rho {v}_{c}\\right) }^{-n}}{2} + \\frac{{\\left( \\rho {v}_{c}\\right) }^{n}}{2}\\right\\rbrack  }^{a/n}}{{\\left( \\rho {v}_{c}\\right) }^{-\\left( {k + a}\\right) }}\\left( \\frac{k - 1 + F\\left( \\rho \\right) }{k - 1 + a}\\right) , \\tag{11}$$其中$$F\\left( \\rho \\right)  = \\frac{{2a}{\\left( \\rho {v}_{c}\\right) }^{n}}{{\\left( \\rho {v}_{c}\\right) }^{-n} + {\\left( \\rho {v}_{c}\\right) }^{n}}. \\tag{12}$$"
+  },
+  {
+    "type": "公式问答型",
+    "question": "主Chapman-Jouguet（CJ）等熵线上的能量如何计算？",
+    "ground_truth": "主CJ等熵线上的能量为 ${e}_{\\mathrm{P}}^{\\left( s\\right) }\\left( \\rho \\right)  = {e}_{c}\\frac{{\\left\\lbrack  \\frac{{\\left( \\rho {v}_{c}\\right) }^{-n}}{2} + \\frac{{\\left( \\rho {v}_{c}\\right) }^{n}}{2}\\right\\rbrack  }^{a/n}}{{\\left( \\rho {v}_{c}\\right) }^{-\\left( {k - 1 + a}\\right) }}$，其中 ${e}_{c} = \\frac{{p}_{c}{v}_{c}}{k - 1 + a}$。",
+    "context": "等熵线上的能量为：$${e}_{\\mathrm{P}}^{\\left( s\\right) }\\left( \\rho \\right)  = {e}_{c}\\frac{{\\left\\lbrack  \\frac{{\\left( \\rho {v}_{c}\\right) }^{-n}}{2} + \\frac{{\\left( \\rho {v}_{c}\\right) }^{n}}{2}\\right\\rbrack  }^{a/n}}{{\\left( \\rho {v}_{c}\\right) }^{-\\left( {k - 1 + a}\\right) }}, \\tag{14}$$其中$${e}_{c} = \\frac{{p}_{c}{v}_{c}}{k - 1 + a}. \\tag{15}$$"
+  },
+  {
+    "type": "公式问答型",
+    "question": "AWSD模型中的速率是如何计算的？",
+    "ground_truth": "AWSD模型中的速率由 $R = {F}_{p}\\left( {{F}_{1} + {F}_{2}}\\right) {F}_{\\lambda }$ 计算，其中 ${F}_{p}$ 为压力开关函数，${F}_{1}$ 和 ${F}_{2}$ 为双阿伦尼乌斯项，${F}_{\\lambda }$ 为反应截止函数。",
+    "context": "AWSD模型中的速率由下式给出：$$R = {F}_{p}\\left( {{F}_{1} + {F}_{2}}\\right) {F}_{\\lambda } \\tag{20}$$其中$${F}_{p} = \\left\\{  \\begin{array}{ll} \\exp \\left\\lbrack  {-{\\left( {p}_{s}/p\\right) }^{{n}_{p}}}\\right\\rbrack  , & p > {p}_{\\zeta }, \\\\  0, & \\text{ otherwise, } \\end{array}\\right. \\tag{21}$$$${F}_{1} = {k}_{1}\\exp \\left\\lbrack  {-{T}_{1}/{T}_{\\text{ shock }}}\\right\\rbrack  \\left( {\\lambda  + {a}_{1}{F}_{p}}\\right) {\\left( 1 - \\lambda \\right) }^{{b}_{1}}, \\tag{22}$$$${F}_{2} = {k}_{2}\\exp \\left\\lbrack  {-{T}_{2}/{T}_{\\text{ shock }}}\\right\\rbrack  {\\left( 1 - \\lambda \\right) }^{{b}_{2}}, \\tag{23}$$以及$${F}_{\\lambda } = {f}_{s} + \\frac{1}{2}\\left( {1 - {f}_{s}}\\right) \\left( {1 - \\tanh \\left\\lbrack  \\frac{\\lambda  - {\\lambda }_{c}}{{\\delta }_{\\lambda }}\\right\\rbrack  }\\right) . \\tag{24}$$"
+  },
+  {
+    "type": "公式问答型",
+    "question": "在AWSD模型中，描述冲击温度 ${T}_{\\text{ shock }}$ 和压力 $p$ 下产物质量分数 $\\lambda$ 变化率的速率定律公式是什么？",
+    "ground_truth": "速率定律公式为 $\\frac{D\\lambda }{Dt} = R\\left( {{T}_{\\text{ shock }}, p,\\lambda }\\right)$，其中 $\\frac{D\\lambda }{Dt}$ 是产物质量分数的物质导数，$R$ 是速率。",
+    "context": "在AWSD模型中，描述冲击温度 ${T}_{\\text{ shock }}$ 和压力 $p$ 下产物质量分数 $\\lambda$ 变化率的速率定律为：$$\\frac{D\\lambda }{Dt} = R\\left( {{T}_{\\text{ shock }}, p,\\lambda }\\right) , \\tag{19}$$其中 $\\frac{D\\lambda }{Dt}$ 是产物质量分数的物质导数（material derivative），$R$ 是速率。"
+  },
+  {
+    "type": "公式问答型",
+    "question": "AWSD模型中的速率公式的各个参数如何得到？",
+    "ground_truth": "速率定律参数的值通过对所建模的具体材料的可用数据进行校准来确定，校准所用数据通常来自气炮和药柱实验数据的组合。",
+    "context": "上述AWSD速率定律共有13个参数：${p}_{s},{p}_{\\zeta },{T}_{1},{T}_{2},{a}_{1},{b}_{1},{b}_{2},{\\delta }_{\\lambda },{f}_{s},{k}_{1},{k}_{2},{\\lambda }_{c}$ 和 ${n}_{p}$ 。这些参数的值可以通过对所建模的具体材料的可用数据进行校准来确定。用于执行此校准的数据通常来自气炮和药柱实验数据的组合。"
+  },
+  {
+    "type": "公式问答型",
+    "question": "AWSD速率定律一共有多少个参数？分别是哪些？",
+    "ground_truth": "AWSD速率定律共有13个参数，分别是：${p}_{s}$、${p}_{\\zeta }$、${T}_{1}$、${T}_{2}$、${a}_{1}$、${b}_{1}$、${b}_{2}$、${\\delta }_{\\lambda }$、${f}_{s}$、${k}_{1}$、${k}_{2}$、${\\lambda }_{c}$ 和 ${n}_{p}$。",
+    "context": "上述AWSD速率定律共有13个参数：${p}_{s},{p}_{\\zeta },{T}_{1},{T}_{2},{a}_{1},{b}_{1},{b}_{2},{\\delta }_{\\lambda },{f}_{s},{k}_{1},{k}_{2},{\\lambda }_{c}$ 和 ${n}_{p}$ 。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "在比热模型的对比中，HMX的Cawkwell模型和Menikoff模型在极高温度下会怎么样？",
+    "ground_truth": "HMX的Cawkwell模型和Menikoff模型在极高温度（$T \\rightarrow  \\infty$）下都趋近于Dulong-Petit极限。",
+    "context": "图1展示了校准后的LX-14戴维斯EOS比热模型和Menikoff HMX模型。为比较起见，图中还显示了Cawkwell等人 [33] 开发的HMX模型以及在参考文献 [31] 中校准的PBX 9501戴维斯EOS比热模型。HMX的Dulong-Petit极限（Dulong-Petit limit）显示为水平黑色虚线。Cawkwell和Menikoff的HMX比热模型在 $T \\rightarrow  \\infty$ 时都趋近于Dulong-Petit极限。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "在U_S - U_P平面的Hugoniot曲线对比中，LX-14的戴维斯校准曲线在小粒子速度区域的线性特征与PBX 9501有何不同？",
+    "ground_truth": "在小 ${U}_{\\mathrm{P}}$ 值下，PBX 9501的Hugoniot曲线呈现非线性变化，而LX-14更呈线性。",
+    "context": "比较PBX-9501曲线（黑色虚线）与LX-14曲线（蓝色实线），LX-14的行为与PBX 9501相似。在小 ${U}_{\\mathrm{P}}$ 值下，PBX 9501的Hugoniot曲线呈现非线性变化，而LX-14更呈线性。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "在P-V平面中，随着比容的减小，LX-14与PBX 9501的压力大小关系是如何演变的？",
+    "ground_truth": "在P-V平面中，随着比容变小，LX-14的压力超过了PBX 9501的压力。",
+    "context": "图2b展示了 $P - V$ 平面中的Hugoniot曲线，其中 $P$ 是压力，$V$ 是比容（specific volume）。随着比容变小，LX-14的压力超过了PBX 9501的压力。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "小 ${U}_{\\mathrm{P}}$ 时LX-14和PBX 9501的 ${U}_{\\mathrm{S}} - {U}_{\\mathrm{P}}$ 曲线比较，谁更呈线性？",
+    "ground_truth": "LX-14在小 ${U}_{\\mathrm{P}}$（小于1 km/s）下的性能比PBX 9501更呈线性。",
+    "context": "图3显示的是小 ${U}_{\\mathrm{P}}$ 时LX-14和PBX 9501的 ${U}_{\\mathrm{S}} - {U}_{\\mathrm{P}}$ 曲线比较。该图突出显示，在比较为每种高能炸药校准的戴维斯EOS模型时，LX-14在小 ${U}_{\\mathrm{P}} \\; \\left( { < 1\\mathrm{\\;{km}}{\\mathrm{\\;s}}^{-1}}\\right)$ 下的性能比PBX 9501更呈线性。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "当 ${U}_{\\mathrm{P}} \\rightarrow  0$ 时，LX-14的${U}_{\\mathrm{S}} - {U}_{\\mathrm{P}}$ Hugoniot曲线的斜率是多少？",
+    "ground_truth": "当 ${U}_{\\mathrm{P}} \\rightarrow  0$ 时，LX-14的${U}_{\\mathrm{S}} - {U}_{\\mathrm{P}}$ Hugoniot曲线的斜率（AWSD参数 $B$）为2.059。",
+    "context": "AWSD参数 $B$ ，即当 ${U}_{\\mathrm{P}} \\rightarrow  0$ 时 ${U}_{\\mathrm{S}} - {U}_{\\mathrm{P}}$ Hugoniot曲线的斜率，LX-14为2.059，PBX 9501为3.3。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "在产物Hugoniot曲线的比较中，对于相同的粒子速度，LX-14产物的冲击波速度与PBX 9501相比是高还是低？",
+    "ground_truth": "对于相同的粒子速度，LX-14产物的冲击波速度大于PBX 9501。",
+    "context": "比较校准后的LX-14 EOS曲线（蓝色实线）与PBX 9501 EOS曲线（黑色虚线），可以看出，对于相同的粒子速度，LX-14产物的冲击波速度大于PBX 9501。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "研究者通过校准戴维斯EOS计算出的LX-14 CJ爆速优化值具体为多少km/s？",
+    "ground_truth": "校准后的LX-14 CJ爆速优化值为 ${D}_{\\mathrm{{CJ}}} = 8.829$ km/s。",
+    "context": "Dobratz的爆速（detonation velocity）为 ${D}_{\\mathrm{{CJ}}}^{\\text{ Dobratz }} = {8.83}\\mathrm{\\;{km}}{\\mathrm{\\;s}}^{-1}$ ，优化值为 ${D}_{\\mathrm{{CJ}}} = \\; {8.829}\\mathrm{\\;{km}}{\\mathrm{\\;s}}^{-1}$ [39]。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "将反应物和产物的U_S - U_P曲线叠加后，两条曲线是否相交？有什么意义？",
+    "ground_truth": "两条状态方程曲线不相交。这意味着材料的热力学状态在 ${U}_{\\mathrm{S}} - {U}_{\\mathrm{P}}$ 平面中是唯一确定的，这可能有助于校准后的AWSD模型在各种流体动力学模拟中的鲁棒性。",
+    "context": "LX-14产物EOS和反应物EOS的Hugoniot ${U}_{\\mathrm{S}} - {U}_{\\mathrm{P}}$ 曲线叠加在图5中。该图的基本观察结果是两条状态方程曲线不相交。这意味着在所校准的EOS模型中，材料（本例中为LX-14）的热力学状态在 ${U}_{\\mathrm{S}} - {U}_{\\mathrm{P}}$ 平面中是唯一确定的。这可能有助于校准后的AWSD模型在各种流体动力学模拟中的鲁棒性。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "在压力为2.97 GPa的低压实验1S-1612中，AWSD模型对波前形状和冲击波到达时间的预测效果如何？",
+    "ground_truth": "AWSD模型预测的波前形状、初始冲击波前粒子速度、冲击波到达时间以及每个量规的最大速度幅值与实验数据非常吻合。",
+    "context": "图6a显示了初始压力为2.97 GPa的实验1S-1612的结果。低压实验的结果通常难以使用反应流模拟捕捉，尤其是在AWSD模型中。……然而，这里AWSD模型预测的波前形状（wavefront shapes）、初始冲击波前粒子速度、冲击波到达时间以及每个量规的最大速度幅值与数据非常吻合。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "在与Tarver的I&G模型对比时，AWSD模型在预测冲击波到达时间方面表现出了什么特点？",
+    "ground_truth": "AWSD模型预测的冲击波到达时间与实验吻合得更好，而Tarver I&G模型估计的冲击波到达时间稍晚。",
+    "context": "AWSD模型预测的每个量规的冲击波到达时间与实验非常吻合。Tarver I&G模型估计本次实验的冲击波到达时间稍晚。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "在高压实验2S-947中，AWSD模型能否有效捕捉到爆轰波的波前形状特征？",
+    "ground_truth": "是，AWSD模型能够捕捉LX-14爆轰的行为，包括波前形状和每个量规的冲击波到达时间。",
+    "context": "两级气炮实验2S-947的结果如图6d所示。该实验的压力为8.13 GPa。在此高压区，我们再次看到AWSD模型捕捉了LX-14爆轰的行为，包括波前形状和每个量规的冲击波到达时间。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "实验2S-946的数据在参数校准过程中被赋予了何种用途，用于校准还是验证？",
+    "ground_truth": "实验2S-946的数据未用于速率定律校准过程，而是用于验证校准后的模型。",
+    "context": "实验2S-946的波前数据未用于速率定律校准过程。因此，该实验的结果可用于验证校准后的模型。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "验证实验2S-946结果显示，AWSD模型对于未参与校准的数据，其预测能力表现如何？",
+    "ground_truth": "AWSD模型生成的预测与实验数据吻合良好，说明了校准后的模型在推导参数值时未使用的数据上具有良好的预测能力。",
+    "context": "使用LX-14 AWSD模型生成的预测与实验数据吻合良好。这说明了校准后的模型在推导参数值时未使用的数据上的预测能力。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "与先前的其他反应燃烧模型相比，AWSD模型在捕捉该验证实验的波前形状方面表现如何？",
+    "ground_truth": "模型很好地捕捉了每个量规的波前形状，并且比其他先前的反应燃烧模型与实验结果吻合得更好。",
+    "context": "模型很好地捕捉了每个量规的波前形状，并且比其他先前的反应燃烧模型与实验结果吻合得更好。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "在1S-1614实验中，CREST模型在描述早期量规的爆轰转变时，其转变速度与实验数据相比是偏快还是偏慢？",
+    "ground_truth": "CREST模型没有像实验数据那样快地转变为爆轰，其爆轰在稍后的时间滞后，即转变速度偏慢。",
+    "context": "对于本次实验中的几个早期量规，CREST模型具有很好的形式，但它没有像实验数据那样快地转变为爆轰，并且爆轰在稍后的时间滞后。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "SURF模型在材料完全转变为爆轰后的阶段，与实验数据的吻合程度如何？",
+    "ground_truth": "SURF模型与完全爆轰的样品吻合良好。",
+    "context": "比较图8c中的AWSD模型和SURF模型结果，可以看出当材料转变为爆轰时，SURF模型的波形形状与数据略有不同。两种模型与完全爆轰的样品吻合良好。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "在实验1S-1614的三种模型叠加比较图中，AWSD模型的结果是用哪种颜色标识的？",
+    "ground_truth": "AWSD结果以黑色显示。",
+    "context": "图9显示了实验1S-1614的三种模型结果与相应实验数据的叠加。……AWSD结果以黑色显示，CREST结果以灰色显示，SURF结果以蓝色显示。红色虚线是实验数据。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "AWSD模型预测LX-14的直径效应曲线在定性行为上与哪个模型预测的结果相同？",
+    "ground_truth": "与CREST模型预测的定性行为相同。",
+    "context": "AWSD模型预测LX-14的直径效应行为将大致介于PBX 9501和PBX 9404结果之间，与CREST模型预测的定性行为相同。"
+  },
+  {
+    "type": "图文关联型",
+    "question": "AWSD模型预测LX-14的直径效应行为会介于哪两种PBX炸药的实验数据之间？",
+    "ground_truth": "介于PBX 9501和PBX 9404的实验数据之间。",
+    "context": "AWSD模型预测LX-14的直径效应行为将大致介于PBX 9501和PBX 9404结果之间，与CREST模型预测的定性行为相同。"
+  }
+  {
+    "type": "多源整合型",
+    "question": "根据对LX-14可用的实验数据线性拟合结果，表征小粒子速度下Hugoniot曲线斜率的参数 $B$ 具体数值是多少？结合与PBX 9501的对比，这一数值反映了LX-14在低压冲击响应上具有怎样的线性特征？",
+    "ground_truth": "根据线性拟合结果，LX-14的参数 $B$ 值为2.059。相比之下，PBX 9501的对应值为3.3，LX-14在小粒子速度（${U}_{\\mathrm{P}} < 1\\mathrm{\\;{km}}{\\mathrm{\\;s}}^{-1}$）下的Hugoniot曲线比PBX 9501更呈线性。",
+    "context": "参数 $B$ 是小 ${U}_{\\mathrm{P}}$ 时 ${U}_{\\mathrm{S}} - {U}_{\\mathrm{P}}$ 平面中Hugoniot曲线的斜率。对可用的LX-14数据进行线性拟合得到值为 $B = {2.059}$ 。……图3显示的是小 ${U}_{\\mathrm{P}}$ 时LX-14和PBX 9501的 ${U}_{\\mathrm{S}} - {U}_{\\mathrm{P}}$ 曲线比较。该图突出显示，在比较为每种高能炸药校准的戴维斯EOS模型时，LX-14在小 ${U}_{\\mathrm{P}} \\; \\left( { < 1\\mathrm{\\;{km}}{\\mathrm{\\;s}}^{-1}}\\right)$ 下的性能比PBX 9501更呈线性。……AWSD参数 $B$ ，即当 ${U}_{\\mathrm{P}} \\rightarrow  0$ 时 ${U}_{\\mathrm{S}} - {U}_{\\mathrm{P}}$ Hugoniot曲线的斜率，LX-14为2.059，PBX 9501为3.3。"
+  },
+  {
+    "type": "多源整合型",
+    "question": "在对比LX-14的戴维斯EOS比热模型与Menikoff及Cawkwell的HMX模型时，戴维斯EOS的数学形式导致了其在高温段出现什么样的具体偏差？这一偏差违背了哪个经典的热力学极限准则？",
+    "ground_truth": "LX-14的戴维斯EOS比热模型在高温下超过了Dulong-Petit极限。这一偏差违背了经典热力学中比热在极高温度下趋近于Dulong-Petit极限的准则。",
+    "context": "戴维斯EOS模型中的比热（specific heat）由下式给出的内容里提及图1展示了校准后的LX-14戴维斯EOS比热模型和Menikoff HMX模型。……然而，LX-14和PBX9501的戴维斯EOS模型在高温下都超过了Dulong-Petit极限，这是方程(8)给出的戴维斯EOS比热函数形式的一个已知局限性。"
+  },
+  {
+    "type": "多源整合型",
+    "question": "在速率定律参数校准的第二阶段中，由于缺少LX-14的药柱数据，研究者采用了哪种替代方案来填补数据空白？在此步骤中具体针对哪两个参数进行了校准？",
+    "ground_truth": "由于没有可用的LX-14药柱数据，研究者在校准中使用了PBX 9404的标度值来填补数据空白。在此步骤中专门校准了参数 ${k}_{2}$ 和 ${b}_{2}$，同时保持所有其他参数不变。",
+    "context": "速率定律参数校准分三步进行。……其次，使用冲击拟合代码模拟药柱实验。没有可用的LX-14药柱数据，因此在校准中使用PBX 9404的标度值来填补这一数据空白。在此第二步中校准了参数 ${k}_{2}$ 和 ${b}_{2}$，同时保持所有其他参数不变。"
+  },
+  {
+    "type": "多源整合型",
+    "question": "综合对比低压和较高压力下的气炮实验结果，AWSD模型在预测冲击波到达时间方面，相对于Tarver I&G模型和CREST模型分别表现出怎样的系统性优势？",
+    "ground_truth": "AWSD模型预测的冲击波到达时间比Tarver I&G模型更准确，I&G模型通常会低估冲击波到达时间或估计稍晚；相对于CREST模型，AWSD模型能够更准确地捕捉爆轰转变的时间，CREST模型预测的爆轰转变往往在时间上滞后。",
+    "context": "图6a显示了初始压力为2.97 GPa的实验1S-1612的结果。……Tarver I&G模型估计本次实验的冲击波到达时间稍晚。实验1S-1613和1S-1614的SDT结果分别如图6b和6c所示。……比较1S-1614的CREST结果和同一次实验的AWSD结果，我们看到，总体而言，AWSD模型更准确地捕捉了实验观察到的行为。……Tarver的I&G模型在预测波前形状方面表现良好；然而，AWSD模型预测的冲击波到达时间吻合得更好。"
+  },
+  {
+    "type": "多源整合型",
+    "question": "在构建LX-14的戴维斯产物状态方程时，研究者采用了哪两种来源的数据组合进行参数校准？在最终的校准结果中，计算出的爆速优化值与Dobratz报告的参考值分别是多少？",
+    "ground_truth": "研究者使用了Green等人提供的LX-14有限实验数据，并结合使用MAGPIE代码生成的热化学数据进行校准。校准后计算得到的爆速优化值为 ${D}_{\\mathrm{{CJ}}} = 8.829\\mathrm{\\;{km}}{\\mathrm{\\;s}}^{-1}$，而Dobratz报告的参考值为 ${D}_{\\mathrm{{CJ}}}^{\\text{ Dobratz }} = 8.83\\mathrm{\\;{km}}{\\mathrm{\\;s}}^{-1}$。",
+    "context": "戴维斯产物状态方程有七个参数：$a, b, k, n,{p}_{c},{v}_{c}$ 和 ${C}_{vp}$ ，必须通过将EOS模型拟合到可用数据源来校准。这里，我们使用了Green等人 [36] 提供的LX-14有限实验数据，并结合使用MAGPIE代码生成的热化学数据。戴维斯产物状态方程是针对该组合数据集进行校准的。……Dobratz的爆速（detonation velocity）为 ${D}_{\\mathrm{{CJ}}}^{\\text{ Dobratz }} = {8.83}\\mathrm{\\;{km}}{\\mathrm{\\;s}}^{-1}$ ，优化值为 ${D}_{\\mathrm{{CJ}}} = \\; {8.829}\\mathrm{\\;{km}}{\\mathrm{\\;s}}^{-1}$ [39]。"
+  }
+]
